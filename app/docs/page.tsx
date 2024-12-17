@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <div>Scalar Docs</div>
+    <div>Place holder for scalar docs here</div>
   );
 }
