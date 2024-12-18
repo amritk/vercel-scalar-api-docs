@@ -5,6 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Adjust to your header height */
+  --scalar-custom-header-height: 64px;
 }
 
 @media (prefers-color-scheme: dark) {
