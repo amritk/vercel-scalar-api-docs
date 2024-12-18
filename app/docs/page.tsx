@@ -7,7 +7,7 @@ export default function ApiReferencePage() {
     <ApiReferenceReact
       configuration={{
         spec: {
-          url: "https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.yaml",
+          url: "https://spec.speakeasy.com/vercel/vercel-docs/vercel-oas-with-code-samples",
         },
         withDefaultFonts: false,
         tagsSorter: "alpha",
