@@ -1,5 +1,26 @@
-export default function Home() {
+"use client";
+
+import { ApiReferenceReact } from "@scalar/api-reference-react";
+
+export default function ApiReferencePage() {
   return (
-    <div>Place holder for scalar docs here</div>
+    <ApiReferenceReact
+      configuration={{
+        spec: {
+          url: "https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.yaml",
+        },
+        withDefaultFonts: false,
+        tagsSorter: "alpha",
+        searchHotKey: "k",
+        hideDarkModeToggle: true,
+        hideDownloadButton: true,
+        hiddenClients: true,
+        defaultHttpClient: {
+          targetKey: "shell",
+          clientKey: "curl",
+        },
+        operationsSorter: "alpha",
+      }}
+    />
   );
 }

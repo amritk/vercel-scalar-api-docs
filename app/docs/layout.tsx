@@ -7,9 +7,9 @@ export default function DocsLayout({
 }): JSX.Element {
   return (
     <>
-      <div>Header</div>
+      <div className="sticky top-0 bg-background h-16">Header</div>
       {children}
-      <div>Footer</div>
+      <div className="bg-red-500 h-16">Footer</div>
     </>
   );
 }
